@@ -1,0 +1,65 @@
+body { 
+	background: url("../img/bg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+.navbar-custom {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-brand {
+	font-size: 200%;
+	font-family: 'Product Sans', Arial, Helvetica, sans-serif;
+}
+
+#div-content {
+	padding-top: 50px;
+	color: white;
+}
+
+.vbottom {
+	display: inline-block;
+	vertical-align: bottom;
+	float: none;
+	background-color: black
+}
+
+.text-sans-serif {
+	font-family: "Open Sans",arial,sans-serif;
+	font-weight: 100;
+	line-height: 68.37px;
+}
+
+.text-large-shadow {
+	text-shadow: 0 0 10px rgba(0,0,0,.5);
+	font-size: 53px;;
+}
+
+.text-alignment-left {
+	text-align: left;
+}
+
+.btn {
+	border-color: rgb(101, 99, 99);
+	border-width: 0px;
+	color: rgb(101, 99, 99);
+	font-weight: 500;
+	font-size: 120%;
+	height:50px; min-width:120px;
+}
+
+.btn-middle {
+	border-width: 0;
+	border-left: 1px solid #efefef;
+}
+
+.btn-group {
+	box-shadow: 2px 2px 1px rgba(0,0,0,.19),inset 0 0px 0 #fff;
+}
