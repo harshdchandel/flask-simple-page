@@ -20,6 +20,7 @@ body {
 }
 
 #div-content {
+	padding: 0;
 	padding-top: 50px;
 	color: white;
 }
@@ -62,4 +63,35 @@ body {
 
 .btn-group {
 	box-shadow: 2px 2px 1px rgba(0,0,0,.19),inset 0 0px 0 #fff;
+}
+
+.parallax {
+	-webkit-perspective: 1px;
+    perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective-origin-x: 100%;
+}
+.parallax::-webkit-scrollbar { 
+    display: none; 
+}
+
+.parallax-layer {
+	position: absolute;
+	height: 100vh;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform-origin-x: 100%;
+}
+.parallax-layer--base {
+	padding-top: 80vh;
+	-webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.parallax-layer--back {
+	-webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px) scale(2);
 }

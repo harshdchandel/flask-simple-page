@@ -10,5 +10,9 @@ app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 def home():
 	return render_template('home.jade')
 
+@app.route('/a')
+def extra():
+	return render_template('parallax.jade')
+
 if __name__ == '__main__':
 	app.run(debug=True)
